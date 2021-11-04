@@ -76,8 +76,6 @@ plugs:
 apps:
   keepass:
     command: bin/desktop-launch mono $SNAP/KeePass.exe
-    # command-chain: [bin/desktop-launch]
-    # desktop: opt/keepass/share/applications/bless.desktop
     environment:
       # Fallback to XWayland if running in a Wayland session.
       DISABLE_WAYLAND: 1
@@ -92,6 +90,3 @@ apps:
       - wayland
       - home
       - removable-media
-      - fuse-support
-      - system-files
-
