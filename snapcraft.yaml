@@ -27,11 +27,6 @@ parts:
     source-type: zip
     stage-packages:
       - mono-runtime
-#      - libmono-corlib4.5-cil
-#      - libmono-posix4.0-cil
-#      - libmono-system-xml4.0-cil
-#      - libmono-system4.0-cil
-#      - gtk-sharp2
 
   desktop-gtk2:
     source: https://github.com/ubuntu/snapcraft-desktop-helpers.git
